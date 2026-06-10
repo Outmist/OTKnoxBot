@@ -7,7 +7,6 @@ DESCRIPTION
 Full server management via Discord:
 - Start / stop / restart server
 - Player online & status monitoring (RCON)
-- Bidirectional chat bridge (Discord <-> in-game)
 - PvP statistics + kill feed
 - Auto-restart every 4 hours (configurable)
 - Maintenance mode (block non-admin players)
@@ -80,9 +79,3 @@ TROUBLESHOOTING
 
 - Maintenance mode doesn't block players: verify MAINTENANCE_ADMIN_STEAMIDS
   and that RCON is reachable.
-
--------------------------------------------------------------------------------
-LICENSE
--------------------------------------------------------------------------------
-Provided "as is" without warranty. Free for non-commercial use.
-================================================================================
